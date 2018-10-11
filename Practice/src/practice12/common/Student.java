@@ -6,6 +6,7 @@
  */
 package practice12.common;
 
+
 /**
  * 受講生の情報を格納します
  * @author Rhizome
@@ -13,20 +14,81 @@ package practice12.common;
  */
 public class Student {
 	/** 受講生ID */
-	public int studentId;
+	private int studentId;
 
 	/** 受講生氏名 */
-	public String studentName;
+	private String studentName;
 
 	/** 会社名 */
-	public String companyName;
+	private String companyName;
 
 	/** 教室名 */
-	public String className;
+	private String className;
 
 	/** メールアドレス */
-	public String mail;
+	private String mail;
 
 	/** パスワード */
-	public String password;
+	private String password;
+
+	// getter
+    public int getStufentId() {
+        return studentId;
+    }
+
+    // setter
+    public void setStudentId(int studentId) {
+        this.studentId = studentId;
+    }
+
+	// getter
+    public String getStufentName() {
+        return studentName;
+    }
+
+    // setter
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
+    }
+
+ // getter
+    public String getCompanyName() {
+        return companyName;
+    }
+
+    // setter
+    public void setCompanyName(String companyName) {
+        this.companyName = companyName;
+    }
+
+ // getter
+    public String getClassName() {
+        return className;
+    }
+
+    // setter
+    public void setClassName(String className) {
+        this.className = className;
+    }
+
+ // getter
+    public String getMail() {
+        return mail;
+    }
+
+    // setter
+    public void setMail(String mail) {
+        this.mail = mail;
+    }
+
+ // getter
+    public String getPassword() {
+        return password;
+    }
+
+    // setter
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
 }
