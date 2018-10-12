@@ -5,6 +5,7 @@
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
 package practice14.ptra14;
+import practice14.common.DBCourse;
 
 public class PTra14_02 {
 
@@ -19,5 +20,12 @@ public class PTra14_02 {
 	 * 		正規化
 	 * 		SQL応用
 	 */
+
+	public static void main(String[] args) {
+		DBCourse dbcourse = new DBCourse();
+		System.out.println(dbcourse.getCourseName());
+		System.out.println(dbcourse.getCourseUnit()[0]);
+	}
+
 
 }

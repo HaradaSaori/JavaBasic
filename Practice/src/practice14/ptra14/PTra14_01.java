@@ -5,6 +5,7 @@
  * Copyright(c) Rhizome Inc. All Rights Reserved.
  */
 package practice14.ptra14;
+import practice14.common.JavaCourse;
 
 public class PTra14_01 {
 
@@ -22,5 +23,11 @@ public class PTra14_01 {
 	 * 		継承
 	 * 		高度な継承
 	 */
+
+	public static void main(String[] args) {
+		JavaCourse javacourse = new JavaCourse();
+		System.out.println(javacourse.getCourseName());
+		System.out.println(javacourse.getCourseUnit()[0]);
+	}
 
 }
